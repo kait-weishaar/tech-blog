@@ -31,7 +31,7 @@ A user must create an account to post content to the site. After signing up and 
 
 
 
-![Demo Video](walkthrough.gif)
+![Demo Video](/public/media/walkthrough.gif)
 
 
 
@@ -57,5 +57,5 @@ A user must create an account to post content to the site. After signing up and 
 
 
 ## Future Development
-Implementing a front-end would be a good exercise to improve my full-stack capabilities and reinforce how the moodel (data) layer is manipulated by the controller to change the view (MVC). Currently there is really no view to complete the MVC paradigm.
+The code could definitely be refactored to be more performant. In addition, posts should likely be able to have more content than just a title and a link, so adding some body to the posts would make the app more worthwhile.
  
