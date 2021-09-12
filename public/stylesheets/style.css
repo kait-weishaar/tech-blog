@@ -189,11 +189,15 @@
     padding: 3vw;
   }
   .demo-bg {
-    opacity: 0.1;
+    opacity: 0.08;
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: auto;
     z-index:-5000;
+  }
+
+  ul {
+    list-style-type:none
   }
