@@ -4,26 +4,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Just Tech News</title>
+  <title>What the TECH</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="icon" href="\media\device_hub_black_24dp.svg" />
 </head>
 
 <body>
   <div class="wrapper">
     <header>
-      <h1>
-        <a href="/">Just Tech News</a>
-      </h1>
-      <nav>
+      <h1 class='align-middle mt-3 fs-1 fw-lighter'>
+        <a href="/" class='fs-1'><span class="material-icons"><span class="material-icons">device_hub</span></span>          What the TECH</a></h1>
+      <nav class='align-top'>
         {{#if loggedIn}}
         <a href="/dashboard">dashboard</a>
-        <button id="logout" class="btn-no-style">logout</button>
+        <button id="logout" class="btn-no-style"><span class="material-icons align-bottom">person_outline</span>logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/login"><span class="material-icons">person_outline</span>login</a>
         {{/if}}
       </nav>
     </header>
     <main>
+       <img class="demo-bg" src="\media\6594_generated.jpg" alt="">
       {{{ body }}}
     </main>
     <footer>

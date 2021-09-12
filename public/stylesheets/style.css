@@ -6,7 +6,7 @@
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(51, 49, 49);
   }
   
@@ -57,13 +57,13 @@
     min-height: 100px;
   }
   
-  form > div {
+  /* form > div {
     margin-bottom: 2%;
   }
   
   form label {
     display: block;
-  }
+  } */
   
   .wrapper {
     width: 100%;
@@ -89,6 +89,7 @@
   main {
     flex: 1;
     padding: 2% 4%;
+    /* background-image: url('\media\6594_generated.jpg'); */
   }
   
   .btn-no-style {
@@ -175,4 +176,24 @@
     justify-content: center;
     padding: 1%;
     font-size: 110%;
+  }
+
+  .radius {
+    border-radius: 2vw;
+  }
+  
+  .shadow {
+    box-shadow: 2px 2px 5px #a9acbb;
+  }
+  .padding {
+    padding: 3vw;
+  }
+  .demo-bg {
+    opacity: 0.1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index:-5000;
   }

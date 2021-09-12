@@ -3,54 +3,54 @@ const { User, Post } = require('../models');
 
 const userdata = [
   {
-    username: 'alesmonde0',
-    email: 'nwestnedge0@cbc.ca',
-    password: 'password123'
+    username: 'thebseto',
+    email: 'emailz@gmail.com',
+    password: 'pswd123456'
   },
   {
-    username: 'jwilloughway1',
-    email: 'rmebes1@sogou.com',
-    password: 'password123'
+    username: 'jwkjby1',
+    email: 'influencer@gmail.com',
+    password: 'pswd123456'
   },
   {
-    username: 'iboddam2',
-    email: 'cstoneman2@last.fm',
-    password: 'password123'
+    username: 'ibkhfb',
+    email: 'cfiuan2@gmail.com',
+    password: 'pswd123456'
   },
   {
-    username: 'dstanmer3',
-    email: 'ihellier3@goo.ne.jp',
-    password: 'password123'
+    username: 'djahsbdr3',
+    email: 'ikdjfer3@gmail.com',
+    password: 'pswd123456'
   },
   {
-    username: 'djiri4',
-    email: 'gmidgley4@weather.com',
-    password: 'password123'
+    username: 'gitcha4',
+    email: 'ldjsgy4@gmail.com',
+    password: 'pswd123456'
   },
   {
-    username: 'msprague5',
-    email: 'larnout5@imdb.com',
-    password: 'password123'
+    username: 'mrproud5',
+    email: 'sdjgn5@gmail.com',
+    password: 'pswd123456'
   },
   {
     username: 'mpergens6',
-    email: 'hnapleton6@feedburner.com',
-    password: 'password123'
+    email: 'hnlegd6@gmail.com',
+    password: 'pswd123456'
   },
   {
-    username: 'tpenniell7',
-    email: 'kperigo7@china.com.cn',
-    password: 'password123'
+    username: 'daniel7',
+    email: 'kpo7@gmail.com',
+    password: 'pswd123456'
   },
   {
-    username: 'msabbins8',
-    email: 'lmongain8@google.ru',
-    password: 'password123'
+    username: 'sabrina8',
+    email: 'lmon8@gmail.com',
+    password: 'pswd123456'
   },
   {
-    username: 'jmacarthur9',
-    email: 'bsteen9@epa.gov',
-    password: 'password123'
+    username: 'jmy9',
+    email: 'bste@gmail.com',
+    password: 'pswd123456'
   }
 ];
 
