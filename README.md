@@ -58,4 +58,7 @@ A user must create an account to post content to the site. After signing up and 
 
 ## Future Development
 The code could definitely be refactored to be more performant. In addition, posts should likely be able to have more content than just a title and a link, so adding some body to the posts would make the app more worthwhile.
+
+## Acknowledgements
+Much of the code was reused from a project done for UW Madison Extensions Coding Bootcamp Trilogy.
  
