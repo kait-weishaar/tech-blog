@@ -1,17 +1,22 @@
-const { Vote } = require('../models');
+const { Like } = require('../models');
 
-const votedata = [
+const likedata = [
+  {
+    user_id: 1,
+    post_id: 15
+  },
   {
     user_id: 9,
     post_id: 19
   },
-  {
-    user_id: 1,
-    post_id: 8
-  },
+  
   {
     user_id: 8,
     post_id: 12
+  },
+  {
+    user_id: 6,
+    post_id: 10
   },
   {
     user_id: 8,
@@ -49,14 +54,8 @@ const votedata = [
     user_id: 10,
     post_id: 2
   },
-  {
-    user_id: 6,
-    post_id: 10
-  },
-  {
-    user_id: 5,
-    post_id: 11
-  },
+ 
+  
   {
     user_id: 6,
     post_id: 1
@@ -84,6 +83,10 @@ const votedata = [
   {
     user_id: 10,
     post_id: 18
+  },
+  {
+    user_id: 1,
+    post_id: 8
   },
   {
     user_id: 4,
@@ -101,10 +104,7 @@ const votedata = [
     user_id: 6,
     post_id: 17
   },
-  {
-    user_id: 1,
-    post_id: 15
-  },
+  
   {
     user_id: 7,
     post_id: 13
@@ -130,6 +130,10 @@ const votedata = [
     post_id: 18
   },
   {
+    user_id: 5,
+    post_id: 11
+  },
+  {
     user_id: 9,
     post_id: 10
   },
@@ -146,6 +150,10 @@ const votedata = [
     post_id: 8
   },
   {
+    user_id: 8,
+    post_id: 18
+  },
+  {
     user_id: 2,
     post_id: 13
   },
@@ -157,10 +165,7 @@ const votedata = [
     user_id: 1,
     post_id: 17
   },
-  {
-    user_id: 10,
-    post_id: 9
-  },
+  
   {
     user_id: 10,
     post_id: 3
@@ -168,6 +173,10 @@ const votedata = [
   {
     user_id: 5,
     post_id: 6
+  },
+  {
+    user_id: 10,
+    post_id: 9
   },
   {
     user_id: 6,
@@ -181,16 +190,13 @@ const votedata = [
     user_id: 6,
     post_id: 14
   },
-  {
-    user_id: 8,
-    post_id: 18
-  },
+  
   {
     user_id: 3,
     post_id: 4
   }
 ];
 
-const seedVotes = () => Vote.bulkCreate(votedata);
+const seedLikes = () => Like.bulkCreate(likedata);
 
-module.exports = seedVotes;
+module.exports = seedLikes;

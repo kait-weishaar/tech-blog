@@ -1,10 +1,13 @@
-async function upvoteClickHandler(event) {
+async function likeClickHandler(event) {
     event.preventDefault();
   
     const id = window.location.toString().split('/')[
+      
       window.location.toString().split('/').length - 1
     ];
-    const response = await fetch('/api/posts/upvote', {
+
+
+    const response = await fetch('/api/posts/like', {
       method: 'PUT',
       body: JSON.stringify({
         post_id: id
@@ -14,6 +17,7 @@ async function upvoteClickHandler(event) {
       }
     });
   
+    
     if (response.ok) {
       document.location.reload();
     } else {
@@ -21,5 +25,5 @@ async function upvoteClickHandler(event) {
     }
   }
   
-  document.querySelector('.upvote-btn').addEventListener('click', upvoteClickHandler);
+  document.querySelector('.like-btn').addEventListener('click', likeClickHandler);
   
