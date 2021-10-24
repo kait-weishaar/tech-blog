@@ -26,12 +26,10 @@ The app is deployed on [Heroku](https://tech-heckler.herokuapp.com/)
 
 
 ## Usage
-A user must create an account to post content to the site. After signing up and logging in, the user can create a new post, edit their post, and comment and vote on posts by other users. From their dashbooard, a user can see their posts and create a new post. 
+A user can tab through the SPA to see my about info, projects, and to fill out a contact form. My resume is downloadable from the navigation bar.
 
 
 
-
-![Demo Video](/public/media/walkthrough.gif)
 
 
 
@@ -42,23 +40,17 @@ A user must create an account to post content to the site. After signing up and 
  - Javascript
  - Node.js
  - Express.js
- - Mysql
- - Mysql2
- - Sequelize
- - JAWSDB
- - Handlebars
  - Bootstrap
  - HTML
  - CSS
- - DOTENV
- - Express-sessions
- - Connect-session-sequelize
+ - CoreUI
+ - React-router
+ - React-router-DOM
+ - -Web-vitals
 
 
 
 ## Future Development
-The code could definitely be refactored to be more performant. In addition, posts should likely be able to have more content than just a title and a link, so adding some body to the posts would make the app more worthwhile.
+I'd like to refine the styling and add more projects eventually.
 
-## Acknowledgements
-Much of the code was reused from a project done for UW Madison Extensions Coding Bootcamp Trilogy.
- 
+
